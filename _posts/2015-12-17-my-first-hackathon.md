@@ -1,6 +1,8 @@
 ---
 layout: post
+categories: blog
 comments: true
+slug: my-first-hackathon
 title: My First Hackathon.
 author: Jigar Lodaya
 tags:
