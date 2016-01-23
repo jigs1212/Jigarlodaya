@@ -1,5 +1,6 @@
 ---
 layout: layout
+comments: true
 ---
 
 <div class="container">
@@ -9,7 +10,7 @@ layout: layout
 		</h3>
 	</div>
 	<div class="blog-title">
-		<h4>
+	<h4>
 		{{ page.date | date: "%B %e, %Y" }}
 			<br /><br />
 			{% for tag in page.tags %}
@@ -36,5 +37,5 @@ layout: layout
 			</h4>
 		</div>
 	</div>
-	{% include disqus.html %}
+		{% include disqus.html %}
 </div>
