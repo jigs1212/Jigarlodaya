@@ -6,16 +6,16 @@
   
   <link href="jigarlodaya.me/"/>
   <id>jigarlodaya.me/</id>
-  <updated>2015-12-24T20:08:30Z</updated>
+  <updated>2016-01-23T11:02:48Z</updated>
   <author>
     <name>Jigar Lodaya</name>
     <email>mailme@jigarlodaya.me</email>
   </author>
-  <rights type="text">Copyright © 2015 Jigar Lodaya. All rights reserved.</rights>
+  <rights type="text">Copyright © 2016 Jigar Lodaya. All rights reserved.</rights>
   
   <entry>
   <title type="text">My First Hackathon.</title>
-  <link rel="alternate" type="text/html" href="jigarlodaya.me/post1.html" />
+  <link rel="alternate" type="text/html" href="/post1.html" />
   <id>jigarlodaya.me/post1</id>
   <published>2015-12-17T00:00:00Z</published>
   <updated>2015-12-17T00:00:00Z</updated>
