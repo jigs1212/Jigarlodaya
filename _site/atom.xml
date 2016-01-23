@@ -6,7 +6,7 @@
   
   <link href="jigarlodaya.me/"/>
   <id>jigarlodaya.me/</id>
-  <updated>2016-01-23T11:33:06Z</updated>
+  <updated>2016-01-23T11:36:17Z</updated>
   <author>
     <name>Jigar Lodaya</name>
     <email>mailme@jigarlodaya.me</email>
@@ -15,7 +15,7 @@
   
   <entry>
   <title type="text">My First Hackathon.</title>
-  <link rel="alternate" type="text/html" href="/blog/my-first-hackathon.html" />
+  <link rel="alternate" type="text/html" href="jigarlodaya.me/blog/my-first-hackathon.html" />
   <id>jigarlodaya.me/blog/my-first-hackathon</id>
   <published>2015-12-17T00:00:00Z</published>
   <updated>2015-12-17T00:00:00Z</updated>
