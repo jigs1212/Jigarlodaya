@@ -190,3 +190,14 @@ footer p {
     margin-bottom: 10px;
     font-size: 10pt;
 }
+
+
+@media (max-width: 767px) {
+.container1 {
+  padding-top: 100px;
+  vertical-align: middle;
+}
+.container1 header{
+
+}
+}
