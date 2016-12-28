@@ -10,6 +10,9 @@ safe: true
 comments: true
 
 
+gems: [jekyll-paginate]
+
+
 # edit here to achieve your personal greatness
 
 name: Jigar Lodaya
