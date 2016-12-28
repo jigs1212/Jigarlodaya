@@ -6,7 +6,6 @@ body {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   /* The html and body elements cannot have any padding or margin. */
-  border-top: 3px solid #169bbc;
 }
 /* Wrapper for page content to push down footer */
 #wrap {
@@ -15,6 +14,7 @@ body {
   height: auto;
   /* Negative indent footer by its height */
   margin: 0 auto -65px;
+  margin-top: 60px;
   /* Pad bottom by footer height */
   /*padding: 0 0 60px;*/
 }

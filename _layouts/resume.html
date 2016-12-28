@@ -35,7 +35,6 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
 
-
     <!-- <link rel="apple-touch-icon" href="static/img/me-icon-57.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="72x72" href="static/img/me-icon-72.png"> -->
     <!-- <link rel="apple-touch-icon" sizes="114x114" href="static/img/me-icon-114.png"> -->
@@ -46,6 +45,15 @@
     {% include header.html %}
   </div>
 <div class="container1">
+    <div class="thirteen columns clearfix">
+
+        {{ content }}
+
+    <footer class="thirteen columns">
+        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
+            <a href="https://www.github.com/biomadeira/vitae">vitae</a> with ♥</p>
+    </footer>
+    </div>
     <header class="three columns">
         <img src="{{ site.baseurl }}static/img/profile.png" class="me">
         <h1>{{ site.name }}</h1>
@@ -67,15 +75,6 @@
             <a href="https://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
         </p>
     </header>
-    <div class="thirteen columns clearfix">
-
-        {{ content }}
-
-    <footer class="thirteen columns">
-        <p>© All rights reserved. Powered by <a href="http://jekyllrb.com/">Jekyll</a> and
-            <a href="https://www.github.com/biomadeira/vitae">vitae</a> with ♥</p>
-    </footer>
-    </div>
 </div>
 
 <script>
@@ -88,5 +87,8 @@
   ga('send', 'pageview');
 
 </script>
+
+<script src="{{ site.baseurl }}static/js/jquery-3.1.1.min.js"></script>
+<script src="{{ site.baseurl }}static/js/resume.js"></script>
 </body>
 </html>
