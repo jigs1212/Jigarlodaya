@@ -1,0 +1,22 @@
+{
+  "name": "jigar_lodaya",
+  "homepage": "jigs1212.github.io",
+  "authors": [
+    "(Jigar Lodaya <mailme.jigs@gmail.com>)"
+  ],
+  "description": "My personal website",
+  "main": "",
+  "keywords": [
+    "resume",
+    "blog"
+  ],
+  "license": "MPL",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

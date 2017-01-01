@@ -13,8 +13,8 @@
         
 
         <!-- Bootstrap -->
-        <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-        <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- <link href="/static/css/bootstrap-theme.min.css" rel="stylesheet"> -->
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,7 +25,6 @@
         <link href="/static/css/nav.css" rel="stylesheet">
         <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,200bold,400old" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link href="/static/css/bootstrap.icon-large.min.css" rel="stylesheet">
 
         <!-- Google Analytics -->
         <script>
@@ -44,19 +43,41 @@
         <!-- Wrap all page content here -->
         <div id="wrap">
             <!-- Navbar header -->
-            <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+            <!-- <nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+
     </div>
     <div id="navbar">
+      <ul class="nav navbar-nav navbar-right">
+
+      </ul>
+    </div>
+  </div>
+</nav> -->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/"><i class="fa fa-home"></i></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/blog.html">BLOG</a></li>
         <li><a href="/projects.html">PROJECTS</a></li>
         <li><a href="/resume.html">RESUME</a></li>
       </ul>
-    </div>
-  </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
 </nav>
 
 
@@ -107,15 +128,13 @@
 
 
         <script src="/static/js/jquery-3.1.1.min.js"></script>
+        <!-- Bower Component Start-->
+          <script src="bower_components/jquery/dist/jquery.min.js"></script>
+          <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+        <!-- Bower Component End-->
         <!-- Bootstrap core JavaScript -->
-        <script
-            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
-            integrity="sha256-Sk3nkD6mLTMOF0EOpNtsIry+s1CsaqQC1rVLTAy+0yc= sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
-            crossorigin="anonymous"></script>
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
         <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="/static/js/docs.min.js"></script>
         <script src="/static/js/main.js"></script>
         <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
         <script src="/static/js/ie10-viewport-bug-workaround.js"></script>

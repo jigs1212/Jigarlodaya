@@ -42,4 +42,4 @@ tags:
 > #### After that event I just made my mind to start working with the community and grow with it. It was fun being there and **lot of knowledge was received, made new friends and mentors**.
 
 
-#### PICTURE LINKS WHERE OUTDATED AND UNAVAILABLE NOW.
+**#### PICTURE LINKS WHERE OUTDATED AND UNAVAILABLE NOW.**
